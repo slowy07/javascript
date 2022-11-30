@@ -18,10 +18,3 @@ jobs:
           cache: npm
       - name: install lib npm
         run: npm ci
-      
-      - name: testing
-        if: ${{ github.event_name == 'push' }}
-        run: npm run test
-
-      - name: style code
-        run: npm run style
