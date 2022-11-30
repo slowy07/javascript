@@ -1,0 +1,40 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "algorithm implementation javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-changed":  "jest --onlyChanged",
+    "style": "standard",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowy07/javascript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "arfy slowy",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@types/jest": "^29.1.2",
+    "babel-jest": "^29.2.0",
+    "globby": "^13.1.2",
+    "husky": "^8.0.1",
+    "jest": "^29.2.0",
+    "standard": "^17.0.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "parser": "@babel/eslint-parser"
+  },
+  "bugs": {
+    "url": "https://github.com/slowy07/javascript/issues"
+  },
+  "homepage": "https://github.com/slowy07/javascript#readme"
+}
